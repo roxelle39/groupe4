@@ -44,6 +44,33 @@ def load(dataframe, title):
     st.write(f'{dataframe.shape[0]} rows, {dataframe.shape[1]} columns')
     st.dataframe(dataframe)
 
+st.markdown("""
+    <style>
+    .big-font {
+        font-size: 50px;
+        color: black;
+    }
+    .small-font {
+        font-size: 20px;
+        color: blue;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Utiliser les classes CSS
+st.markdown('<p class="big-font">Group4 DATA SCRAPER APP</p>', unsafe_allow_html=True)
+st.markdown('<p class="small-font">This app performs webscraping of data from dakar-auto over multiples pages. And we can also download scraped data from the app directly without scraping them.</p>', unsafe_allow_html=True)
+
+
+
+st.markdown("""
+    <style>
+    body {
+        background-color: #ADD8E6;  /* Couleur bleu ciel */
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # Function to scrape car data
 def scrape_cars(url, last_page_index):
     df = pd.DataFrame()
