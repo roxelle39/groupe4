@@ -59,7 +59,7 @@ st.markdown("""
 
 # Utiliser les classes CSS
 st.markdown('<p class="big-font">Group4 DATA SCRAPER APP</p>', unsafe_allow_html=True)
-st.markdown('<p class="small-font">This app performs webscraping of data from dakar-auto over multiples pages. And we can also download scraped data from the app directly without scraping them.</p>', unsafe_allow_html=True)
+st.markdown('<p class="small-font">This app performs webscraping of data from Expat-dakar over multiples pages. And we can also download scraped data from the app directly without scraping them.</p>', unsafe_allow_html=True)
 
 
 
