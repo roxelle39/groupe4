@@ -8,3 +8,4 @@ streamlit
 seaborn
 pybase64
 beautifulsoup4
+re
